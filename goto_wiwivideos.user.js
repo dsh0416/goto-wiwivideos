@@ -31,15 +31,13 @@ function init() {
 }
 
 function addWiwiVideoBtn(uuid) {
-	var ele = document.createElement('div');
+  var ele = document.createElement('div');
   ele.innerHTML = `
 		<a href="https://wiwi.video/videos/watch/${uuid}">
 			<div style="width: 28px; height: 28px; background-image: url(https://wiwi.video/lazy-static/avatars/b2d085dd-e5ba-4081-b160-400deac7be8c.png); background-repeat: no-repeat;background-size: contain;margin: 0 0 0 20px;border-radius: 14px;">
 			</div>
 		</a>`;
   document.querySelector("#top-level-buttons").appendChild(ele)
-  console.log(ele);
-  console.log(document.querySelector("#top-level-buttons"));
   
 }
 
