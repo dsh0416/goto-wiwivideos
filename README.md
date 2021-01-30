@@ -7,3 +7,9 @@
 **需要安裝 Greasemonkey 的 Chrome/Firefox Extension**
 
 安裝後，點 [這裏](https://github.com/dsh0416/goto-wiwivideos/raw/main/goto_wiwivideos.user.js) 安裝「去好和弦聯播網觀看」腳本
+
+## TODO
+
+- [ ] 支援 Janet 頻道
+- [ ] 在頻道頁等更多地方直接提供跳轉按鈕
+- [ ] 引入快取降低 API 壓力
